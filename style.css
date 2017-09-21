@@ -12,3 +12,7 @@ background-color: lightgray;
 .textFields {
     font-size: 1.7em;
 }
+
+input[type="radio"] {
+    margin-right:20px;
+}
