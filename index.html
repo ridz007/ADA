@@ -30,21 +30,24 @@
                 <input type="email" class="form-control textFields" id="email" placeholder="Enter email" name="email" required minlength="2">
             </div>
             <br>
-            <label class="textFields">What do you think about our website ?</label>
+            <fieldset>
+            <legend class="textFields">What do you think about our website ?</legend>
             <div>
                 <button><img id="satisfied" src="./images/happy.jpg" alt="Highly satisfied"  class="emojiButtons"></button>
                 <button><img  id="sad" src="./images/love.jpg" alt="I love it"  class="emojiButtons"></button>
                 <button><img  id="noComments" src="./images/no_comments.jpg" alt="Not upto the mark"  class="emojiButtons"></button>
                 <button><img  id="weird" src="./images/weird.jpg" alt="Highly dissatisfied" class="emojiButtons"></button>
             </div>
+            <fieldset>
             <br>
-            <label class="textFields"> Rate accesibilty of our website *</label>
+            <fieldset>
+            <legend class="textFields"> Rate accesibilty of our website *</legend>
             <div>
                 <div><input type="radio" name="option" id="good"><label for="good"> Good  </label> </div>
                 <div><input type="radio" name="option" id="satisfactory"><label for="satisfactory"> Satisfactory </label></div>
                 <div><input type="radio" name="option" id="poor"><label for="poor"> Poor  </label></div>
             </div>
-            
+            </fieldset>
             <hr>
             <button type="submit" class="btn btn-primary btn-block" id="submitButton">Submit</button>
         </form>
