@@ -6,8 +6,26 @@ background-color: lightgray;
     color: red;
 } */
 .emojiButtons {
-    width: 50px;
-    height: auto;
+    background-repeat: no-repeat;
+    width: 55px;
+    background-size: cover;
+    height: 55px;
+}
+
+#satisfied{
+    background-image: url(./images/happy.jpg);
+}
+
+#happy{
+    background-image: url(./images/love.jpg);
+}
+
+#noComments{
+    background-image: url(./images/no_comments.jpg);
+}
+
+#weird{
+    background-image: url(./images/weird.jpg);
 }
 .textFields {
     font-size: 1.7em;

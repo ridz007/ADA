@@ -2,14 +2,14 @@
 
   $(document).ready(function(){
     $('.emojiButtons').click(function() { 
-        $('#userName').blur();
-        this.parentElement.style.backgroundColor = 'green';
-        for (var i=0;i < $(this).parent().siblings().length; i++) {
-            $(this).parent().siblings()[i].style.backgroundColor = '';
+        $('#userName').blur();        
+        for (var i=0;i < this.parentNode.children.length; i++) {
+            this.parentNode.children[i].style.backgroundColor = '';
+            
         }
-         // alert('You have selected ' + this.alt); remove this in case the visual player dsnt say so
-        
+        this.style.backgroundColor = 'green';  
         });
+        
     $("#email").click(function(e){
         var email = $("#email").val();
         if (email == "") {
